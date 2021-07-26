@@ -133,7 +133,7 @@ var MushpupUI = (function() {
     $input.attr('placeholder', LOCUS_PLACEHOLDER);
 
     // Disable auto-modification attributes
-    $input.attr('autocomplete', 'off');
+    $input.attr('autocomplete', 'url');
     $input.attr('autocapitalize', 'off');
     $input.attr('spellcheck', 'off');
 
