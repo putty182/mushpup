@@ -143,7 +143,7 @@ var MushpupUI = (function() {
 
   var buildPocusFormGroup = function() {
     var $pocusGroup = $('<div class="form-group pocus" />');
-    var $input = $('<input type="password" id="pocus" class="form-control" />');
+    var $input = $('<input type="password" id="pocus" class="form-control" autocomplete="off" />');
     var $p = $('<p class="hidden warn warn-pocus" />');
 
     $input.attr('placeholder', 'mushpup secret word');
@@ -154,7 +154,7 @@ var MushpupUI = (function() {
 
   var buildPocusConfirmFormGroup = function() {
     var $pocusConfirmGroup = $('<div class="form-group rolled-up pocus-confirm" />');
-    var $input = $('<input type="password" id="pocus-confirm" class="form-control" />');
+    var $input = $('<input type="password" id="pocus-confirm" class="form-control" autocomplete="off" />');
     var $p = $('<p class="hidden warn warn-pocus-confirm" />');
 
     $input.attr('placeholder', 'confirm secret word');
